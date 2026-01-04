@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Zeem logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="28" fill="#0b1020"/>
+  <g fill="url(#g)">
+    <path d="M56 84h108a6 6 0 0 1 4.8 9.6l-70 96a6 6 0 0 1-9.6 0l-38-52a6 6 0 0 1 9.6-7.2l32 44 62.4-85.8H56a6 6 0 0 1 0-12z"/>
+    <circle cx="188" cy="64" r="18" fill="#2563eb"/>
+  </g>
+</svg>

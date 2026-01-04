@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zeem Software Solutions — Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Zeem Software Solutions to discuss your project and get a tailored proposal.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.svg" alt="" class="logo" />
+        <span class="brand-name">Zeem Software Solutions</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a class="btn btn-sm" href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <header class="page-header">
+      <h1>Get in touch</h1>
+      <p>Tell us about your goals. We’ll respond within one business day.</p>
+    </header>
+
+    <section class="card">
+      <!-- For Netlify forms, add data-netlify and name attributes -->
+      <form id="contactForm" class="contact-form" name="contact" data-netlify="true" netlify>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div class="form-row">
+          <label for="company">Company (optional)</label>
+          <input id="company" name="company" type="text">
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <button class="btn" type="submit">Send message</button>
+        <p id="response" class="form-response" role="status" aria-live="polite"></p>
+        <input type="hidden" name="form-name" value="contact">
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Office</h2>
+      <div class="media-block">
+        <img class="media" src="assets/office.jpg" alt="Office workspace">
+        <div class="media-copy">
+          <p><strong>Email:</strong> hello@zeemsoft.com</p>
+          <p><strong>Hours:</strong> Mon–Fri, 9am–6pm IST</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo.svg" alt="" class="logo" />
+        <p>Let’s build something great.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <div class="footer-meta">
+        <p>© <span id="year"></span> Zeem Software Solutions</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
